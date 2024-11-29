@@ -1,0 +1,507 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+:root {
+  --cnvs-themecolor: #1eb0bb;
+  --cnvs-themecolor-rgb: 30, 176, 187;
+  /* Fuentes */
+}
+
+:root {
+  --cnvs-primary-font: "Verdana", sans-serif, sans-serif;
+  --cnvs-secondary-font: "Arial", sans-serif, sans-serif;
+  --cnvs-body-font: "Arial", sans-serif, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita el scroll horizontal */
+  box-sizing: border-box;
+   
+}
+
+#side-panel .side-panel-wrap {
+  width: inherit;
+}
+
+.heading-block h2,
+.heading-block .h2 {
+  font-size: var(--cnvs-heading-block-font-size-h2);
+  text-transform: uppercase;
+}
+
+footer .newsletter-signup .newsletter-form h2 {
+  margin-bottom: 0;
+  letter-spacing: 0;
+  color: #fff;
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+footer .newsletter-signup {
+  height: 180px;
+  padding: 50px 0;
+}
+
+.color {
+  color: rgb(97 166 14) !important;
+}
+
+.bg-dark {
+  background-color: #61a60e !important;
+}
+
+.btn-success {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #61a60e;
+  --bs-btn-border-color: #548f0b;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #437209;
+  --bs-btn-hover-border-color: #68a124;
+  --bs-btn-focus-shadow-rgb: 60, 153, 110;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #61a60e;
+  --bs-btn-active-border-color: #61a60e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #61a60e;
+  --bs-btn-disabled-border-color: #61a60e;
+}
+
+.product-content .product-left {
+  flex: 0 0 60%;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+  padding-left: 10px !important;
+  padding-right: 60px !important;
+}
+
+.block-hero-6 .font-secondary {
+  font-family: "Grand Hotel", cursive;
+}
+
+.block-hero-6 {
+  --color: 34, 46, 43;
+}
+
+.block-hero-6 .hero-img {
+    border: 6px solid #73b53f;
+}
+ 
+.shape-divider-fill {
+  fill: #182a28;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
+
+.content-wrap {
+  position: relative;
+  padding: var(--cnvs-content-padding) 0;
+  overflow: inherit;
+}
+
+footer .bottom-footer {
+  background: #161615;
+  padding: 40px 0;
+}
+
+.button {
+  --cnvs-btn-padding-x: 1.375rem;
+  --cnvs-btn-padding-y: 0.5rem;
+  --cnvs-btn-fontsize: 1rem;
+  --cnvs-btn-color: #61a60e;
+  --cnvs-btn-color-dark: var(--bs-gray-900);
+  --cnvs-btn-color-light: #e9ecef;
+  --cnvs-btn-color-hover: var(--cnvs-btn-color-dark);
+  --cnvs-btn-lineheight: calc(var(--cnvs-btn-fontsize)* 1.6);
+  --cnvs-btn-border-width: 1px;
+  --cnvs-btn-icon-margin: 10px;
+  --cnvs-btn-icon-margin-offset: 0px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+  margin: 5px;
+  padding: var(--cnvs-btn-padding-y) var(--cnvs-btn-padding-x);
+  font-size: var(--cnvs-btn-fontsize);
+  line-height: var(--cnvs-btn-lineheight);
+  text-align: center;
+  background-color: var(--cnvs-btn-color);
+  color: #fff;
+  font-weight: 500;
+  border: var(--cnvs-btn-border-width) solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.fbox-plain .fbox-icon i, .fbox-plain .fbox-icon img {
+  border: none;
+  background-color: transparent;
+  color: #61a60e;
+  border-radius: 0;
+}
+
+.card{
+  border-radius: 0!important;
+  border: 3px solid #61a60e;
+}
+
+#tagline p {
+  margin-bottom: 0;
+  font-family: arial;
+  font-size: 1.688rem;
+  color: #FFF;
+  text-align: center;
+  font-weight: 900;
+}
+
+#homepage-bottom .home-bottom-right .latest-news h2 {
+  color: #FFF;
+  font-size: 2.50rem;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+#homepage-bottom .home-bottom-left .featured-video h2 {
+  color: #FFF;
+  font-size: 2.50rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#homepage-bottom .home-bottom-left .featured-video img {
+  border: 5px solid #61a60e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.heading-block h2, .heading-block .h2 {
+  font-size: 3.5rem!important;
+  text-transform: uppercase!important;
+}
+
+.heading-block.center > span, .heading-block.text-center > span, .center .heading-block > span, .text-center .heading-block > span {
+ 
+  font-size: 2rem;
+}
+.text-dark {
+  --bs-text-opacity: 1;
+  color: #231f20!important;
+    font-size: 0.875rem;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+input[type=text], input[type=email], input[type=tel], textarea {
+ 
+  border: 2px solid #61a60e;
+}
+
+
+#page-title, .page-title {
+ 
+  background-color: inherit;
+  border-bottom: inherit;
+}
+
+.page-content h1.page-title {
+  margin-bottom: 0px;
+}
+
+#comments {
+  position: relative;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border: 2px solid #61a60e;
+}
+
+.green_border { 
+  border: 3px solid #61a60e;
+}
+
+.img_exportaciones{
+  max-width: 600px;
+  width: 500px;
+  margin-bottom: 20px
+}
+
+footer .bottom-footer .bottom .lInfo img {
+  max-width: 150px;
+  margin-bottom: 120px;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Rsponsivo  */
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+
+  .product-content .featured-recipe h2 {
+    font-size: 1.5rem;
+}
+
+  .limon_move {
+    position: absolute; 
+    right: 0;
+    top: 30px;
+    display: none;
+  
+    /* Transición infinita mejorada */
+    animation: limonOscilaSuave 5s ease-in-out infinite;
+  }
+  
+  .limon_move_2 {
+    position: absolute; 
+    left: 0;
+    top: 40px;  
+    display: none;
+  
+    /* Transición infinita mejorada */
+    animation: limonOscilaSuaveDos 10s ease-in-out infinite;
+  }
+
+  footer .bottom-footer .bottom .lInfo img {
+    max-width: 150px;
+    margin-bottom: 120px;
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .product-content .product-left {
+    flex: 0 0 60%;
+    padding-top: inherit !important;
+    padding-bottom: 60px!important;
+    padding-left: inherit !important;
+    padding-right: inherit !important;
+  }
+
+  .product-content {
+    text-align: center;
+    margin: 10px;
+  }
+
+   table{     
+    text-align: center!important;
+}
+
+.page-id-146 table tr, .page-id-146 table tr td {
+  clear: both;
+  text-align: -webkit-center;
+}
+  #homepage-bottom .home-bottom-left .cares h2 {
+      font-size: 2rem; /* Tamaño más pequeño para dispositivos móviles */
+  }
+
+    .heading-block h2, .heading-block .h2 {
+    font-size: 2rem !important;
+    text-transform: uppercase !important;
+}
+
+.button.green {
+  background: #61a60e;
+  width: inherit;
+}
+
+.block-hero-21 .color {
+  color: #373d3a !important;
+  text-transform: uppercase !important;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.img_exportaciones{
+  max-width: 600px;
+  width: 100%;
+}
+
+}
+
+
+
+/* Para pantallas medianas (tabletas) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .img_exportaciones{
+    max-width: 600px;
+    width: 100%;
+  }
+  #homepage-bottom .home-bottom-left .cares h2 {
+      font-size: 3rem; /* Tamaño intermedio para tabletas */
+  }
+
+  .heading-block h2, .heading-block .h2 {
+    font-size: 2rem !important;
+    text-transform: uppercase !important;
+}
+
+.block-hero-21 .color {
+  color: #373d3a !important;
+  text-transform: uppercase !important;
+  font-weight: 600;
+  font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 490px) {
+  footer .bottom-footer .bottom {
+      margin-top: 100px;
+  }
+
+  .center_icons{
+    justify-content: center!important;
+  }
+}
+
+html{
+  width: auto;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 815px) {
+  header .logo {
+      grid-column: 1;
+      grid-row: 1;
+      margin-bottom: inherit;
+      margin-top: 35%;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  footer .bottom-footer .bottom .lInfo img {
+      margin-bottom: 20px;
+      width: 400px;
+      max-width: min-content;
+  }
+}
+
+.limon_move {
+  position: absolute; 
+  right: 0;
+  top: 30px;
+
+  /* Transición infinita mejorada */
+  animation: limonOscilaSuave 5s ease-in-out infinite;
+}
+
+.limon_move_2 {
+  position: absolute; 
+  left: 0;
+  top: 40px;  
+
+  /* Transición infinita mejorada */
+  animation: limonOscilaSuaveDos 10s ease-in-out infinite;
+}
+
+
+/* Definición de la animación */
+@keyframes limonOscilaSuave {
+  0% {
+      transform: translateX(0) rotate(0deg);
+  }
+  50% {
+      transform: translateX(-15px) rotate(-10deg); /* Mueve y gira a la izquierda */
+  }
+  100% {
+      transform: translateX(0) rotate(0deg); /* Vuelve a la posición inicial */
+  }
+}
+
+/* Definición de la animación */
+@keyframes limonOscilaSuaveDos {
+  0% {
+      transform: translateX(0) rotate(0deg);
+  }
+  50% {
+      transform: translateX(-15px) rotate(-10deg); /* Mueve y gira a la izquierda */
+  }
+  100% {
+      transform: translateX(0) rotate(0deg); /* Vuelve a la posición inicial */
+  }
+}
+
+.page-template-page-sidebar .left-column {
+  flex: 0 0 25%;
+  background-position: bottom;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  padding: 90px 20px 110px 105px;
+}
+
+body.postid-50 .product-content .product-left h1 {
+  color: #77b13c;
+  margin-top: 40px;
+}
+
+.owl-carousel .owl-nav [class*=owl-]:hover {
+  background-color: #61a60e !important;
+}
+
+/* Colores de botones segun el fruto  */
+/* Limon  */ 
+
+#products-carousel .product.product-50 .button {
+  background: #61a60e;
+}
+
+/* Palta  */
+#products-carousel .product.product-51 .button {
+  background: #3d4d07;
+}
+
+/* Mango  */
+#products-carousel .product.product-52 .button {
+  background: #ff6c0e;
+}
+
+
+/* Uva  */
+
+#products-carousel .product.product-53 .button {
+  background: #863b96;
+}
+
+/* Arandano  */
+
+#products-carousel .product.product-54 .button {
+  background: #20529f;
+}
+
+
+/* Kion  */
+
+#products-carousel .product.product-55 .button {
+  background: #a05d28;
+}
+
+/* Banano  */
+
+#products-carousel .product.product-56 .button {
+  background: #fcd424;
+  color: rgb(44, 44, 44);
+}
+
+
+
+/* Cerezas  */
+
+#products-carousel .product.product-57 .button {
+  background: #a80c12;
+}
+
+/* Cafe  */
+#products-carousel .product.product-58 .button {
+  background: #5a301b;
+}
+
+/* cacao  */
+
+#products-carousel .product.product-59 .button {
+  background: #f1a94d;
+}
+
